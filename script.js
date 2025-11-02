@@ -6,8 +6,7 @@ const incrementBtn = document.getElementById('incrementBtn');
 incrementBtn.addEventListener('click', function() {
   let currentValue = parseInt(counter.textContent);
 
-  alert("Current value before increment: " + currentValue);
+  alert(currentValue);
 
   counter.textContent = currentValue + 1;
 });
-
